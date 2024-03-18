@@ -1,0 +1,81 @@
+.team h3{
+    font-size: 40px;
+    font-weight: bold;
+ }
+ .team{
+    background-color: red;
+ }
+ .hamada i{
+    color: green !important ;
+ }
+ .img-text{
+    background-color: #5B5B5B;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 25px;
+ }
+
+ .sty-h5{
+    font-size: 27px;
+ }
+ 
+.inner{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.layer{
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        right: 5px;
+        bottom: 5px;
+        background: rgba(255, 255, 255, 0.95);
+        opacity: 0;
+        transition: opacity 0.4s;
+        transition: transform 0.4s; 
+        z-index: 4;
+        display: flex ;
+        justify-content: center;
+        align-items: center;
+        transform: rotatey(180deg ) scale(0.5);
+        
+        
+    }
+    .inner:hover .layer{
+        opacity: 1;
+        transform: rotateY(360deg);
+        
+    }
+    .list-inline li{
+        padding-right: 10px;
+    
+    }
+    .list-inline li i{
+        color: #111
+    }
+    .img-scale{
+        transition: all 0.6s;
+    }
+
+    .inner:hover .img-scale{
+          transform: scale(1.2);
+    }
+    .row{
+        box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);;
+    }
+
+
+    .social-icon a{
+        padding-right: 30px;
+        text-decoration: none;
+        color: #111;
+        font-size: 35px;
+    }
+    .social-icon span{
+        width: 45px;
+        height: 45px;
+        background-color: #FFFFFF;
+        border-radius: 50%;
+    }
